@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+os payloads estão encurtados para que não fique tão feio aqui no codigo.
+[!] todos esses payloads estão setados para rodar no detran ac, vc pode
+altera-los mudando o link para outro link q tenha vuln XSS
+[!]O payload começa apartir dessa tag "><svg/"
+[*]Escrito por: Jonathan Baskov(jord@root) & Raphael Fiorin(SCH3M4)
+[*]TEAM: INSANITY SECURITY LAB
+-->
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>::INSANITY SECURITY LAB::</title>
+	<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&family=Syne+Tactile&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap" rel="stylesheet">
+	<style>
+		body{
+			background-color: silver;
+			background-image: url(https://i.imgur.com/7YSsbsN.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		h1{
+			font-family: 'Turret Road', cursive;
+			font-size: 50px;
+			color:#ff0000;
+		}
+		h2{
+			color:silver;
+			font-family: 'Syne Mono', monospace;
+			font-family: 'Syne Tactile', cursive;	
+		}
+		img{
+    	border-radius:10%;
+        float: center;
+  		margin: 0 50px 50px 0;
+		}
+	    .imagem{
+        position:relative;
+        }
+		.galeria img:hover {
+  		-webkit-transform: scale(1.1);
+  		-moz-transform: scale(1.1);
+  		-o-transform: scale(1.1);
+  		-ms-transform: scale(1.1);
+  		transform: scale(1.1);
+		}
+		@-webkit-keyframes fadeIn {
+		0% { opacity: 0; }
+		100% { opacity: 1; } 
+		}
+		@-moz-keyframes fadeIn {
+		0% { opacity: 0;}
+		100% { opacity: 1; }
+		}
+		@-o-keyframes fadeIn {
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+		}
+		@keyframes fadeIn {
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+		}
+		.fadeIn {
+		-webkit-animation: fadeIn 5s ease-in-out;
+		-moz-animation: fadeIn 5s ease-in-out;
+		-o-animation: fadeIn 5s ease-in-out;
+		animation: fadeIn 5s ease-in-out;
+}
+	</style>
+</head>
+
+<div class="galeria">
+<body>
+	<body class="fadeIn">
+	<center>
+		<p>
+		<h1><i>INSANITY SECURITY LAB</i></h1>
+
+		<h2>Welcome to the hacker arcade</h2>
+		<p>
+			<br>
+		<a href="https://bityli.com/dBgCF"><img src="https://manualdosgames.com/wp-content/uploads/2019/09/mobile_MarioKartTour_screen_07_png_jpgcopy.0.jpg" width="200" title="MARIO-KART"></a>
+
+		<a href="https://bityli.com/zoITI"><img src="https://warpzone.me/wp-content/uploads/2018/12/SonicBiosThumb-696x392.jpg" width="240" title="SONIC"></a>
+		<a href="https://bityli.com/DmZOJ"><img src="https://windowsteam.com.br/wp-content/uploads/2020/05/superbombermanr_2030633_1200x675.png" width="230" title="BOMBERMAN"></a><p>
+
+		<br>
+		<a href="https://abre.ai/bWLX"><img src="https://i.imgur.com/kq2UuAM.jpeg" width="240" title="DOOM"></a> 
+		
+		<a href="https://bityli.com/muuCv"><img src="https://i.imgur.com/y5t7IOt.jpg"
+		 width="230" title="MORTAL-KOMBAT"></a>
+		<a href="https://bityli.com/A9nV8"><img src="https://i.ytimg.com/vi/SJA6x96HMX0/maxresdefault.jpg" width="230" title="LAMBORGHINI-AMERICAN CHALLENGE"></a>
+		<br>
+</div>
+</center>
+</body>
+</html>
+
+
